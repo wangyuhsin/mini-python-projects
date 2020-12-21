@@ -5,7 +5,7 @@ Hello there!
 This repository holds my programming projects done during the period of stanCode SC001 & SC101 courses.
 
 
-Watch my *[DEMO VIDEOS!](link)*
+Watch my *[DEMO VIDEOS!](https://drive.google.com/drive/folders/1lTFxOS37Zm3Ajq0XOF9JUN59pZc5DqxG?usp=sharing)*
 
 
 ## Project Source Codes:
