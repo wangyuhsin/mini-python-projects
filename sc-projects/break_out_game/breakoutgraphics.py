@@ -140,7 +140,7 @@ class BreakoutGraphics:
         lose_background.filled = True
         lose_background.color = '#a6a5c4'
         lose_background.fill_color = '#a6a5c4'
-        lose_label = GLabel('LOSE')
+        lose_label = GLabel('GAME OVER')
         lose_label.font = '-50'
         lose_label.color = '#e7e7eb'
         self.window.add(lose_background)
