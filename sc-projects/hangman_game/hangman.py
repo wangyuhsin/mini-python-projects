@@ -14,6 +14,7 @@ import random
 
 # This constant controls the number of guess the player has.
 N_TURNS = 7
+chance = N_TURNS
 
 
 def main():
@@ -22,6 +23,7 @@ def main():
     """
     ans = random_word()
     dash1 = dash(ans)
+    draw()
     print('Your word looks like: ' + dash1)
     print('You have ' + str(N_TURNS) + ' guesses left.')
     your_guess(ans, dash1)
@@ -34,14 +36,43 @@ def dash(ans):
     return dash1
 
 
+def draw():
+    global chance
+    if chance == N_TURNS:
+        print('    ----------\n    | /\n    |\n    |\n    |\n    |\n    |\n    |\n    |')
+        print('____|____')
+    elif chance == N_TURNS-1:
+        print('    ----------\n    | /      |\n    |\n    |\n    |\n    |\n    |\n    |\n    |')
+        print('____|____')
+    elif chance == N_TURNS-2:
+        print('    ----------\n    | /      |\n    |     (     )\n    |\n    |\n    |\n    |\n    |\n    |')
+        print('____|____')
+    elif chance == N_TURNS-3:
+        print('    ----------\n    | /      |\n    |     ( X_X )\n    |\n    |\n    |\n    |\n    |\n    |')
+        print('____|____')
+    elif chance == N_TURNS-4:
+        print('    ----------\n    | /      |\n    |     ( X_X )\n    |        |\n    |        |\n    |        |\n    |\n    |\n    |')
+        print('____|____')
+    elif chance == N_TURNS-5:
+        print('    ----------\n    | /      |\n    |     ( X_X )\n    |        |\n    |      / | \\\n    |     o  |  o\n    |\n    |\n    |')
+        print('____|____')
+    elif chance == N_TURNS-6:
+        print('    ----------\n    | /      |\n    |     ( X_X )\n    |        |\n    |      / | \\\n    |     o  |  o\n    |       / \\\n    |      /   \\\n    |')
+        print('____|____')
+    else:
+        print('    ----------\n    | /      |\n    |     ( X_X )\n    |        |\n    |      / | \\\n    |     o  |  o\n    |       / \\\n    |      /   \\\n    |     =     =')
+        print('____|____')
+
+
 def your_guess(ans, dash1):
-    chance = N_TURNS
+    global chance
     while True:
         guess = input('Your guess: ')
         if guess.isalpha() and len(guess) == 1:
             guess = guess.lower()
             if ans.find(guess) != -1:
                 print("You are correct!")
+                draw()
                 dash2 = ''
                 for i in range(len(ans)):
                     ch = ans[i]
@@ -60,6 +91,7 @@ def your_guess(ans, dash1):
             elif ans.find(guess) == -1:
                 print("There is no " + guess + "\'s in the word.")
                 chance -= 1
+                draw()
                 if chance != 0:
                     print("You have " + str(chance) + " guesses left.")
                 elif chance == 0:
