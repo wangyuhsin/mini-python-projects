@@ -20,7 +20,7 @@ To run the Breakout Game, execute the following command:
 python3 breakout.py
 ```
 
-https://github.com/wangyuhsin/sc-projects/assets/76431031/37b0ded1-3f30-48d2-a93d-616b6d57a9b9
+https://github.com/wangyuhsin/mini-python-projects/assets/76431031/4e9aedd3-1c43-4b5f-a385-4c76e34f6149
 
 ## Hangman Game
 
@@ -31,7 +31,7 @@ To run the Hangman game, simply execute the following command:
 python3 hangman.py
 ```
 
-https://github.com/wangyuhsin/sc-projects/assets/76431031/5f1d85cf-679e-4960-96b7-da7bef429cfb
+https://github.com/wangyuhsin/mini-python-projects/assets/76431031/285febeb-37c3-47db-9676-f557f84c0c6f
 
 ## Name Popularity Searching System
 
@@ -43,7 +43,7 @@ python3 babygraphics.py
 ```
 This will launch the GUI window, where you can enter names in the search field to see their popularity trends over the years. The system will display graphs indicating the ranks of the given names in different decades.
 
-https://github.com/wangyuhsin/sc-projects/assets/76431031/44574227-63c3-4359-a2bc-82dc325a71ae
+https://github.com/wangyuhsin/mini-python-projects/assets/76431031/a2004529-2ba5-419f-a2f9-a6385c0a44ff
 
 ## My Photoshop
 
@@ -60,7 +60,7 @@ To run the Pedestrian Removing Application, execute the following command:
 python3 stanCodoshop.py <folder containing all the images>
 ```
 
-https://github.com/wangyuhsin/sc-projects/assets/76431031/3496c0c8-8465-43bd-965b-7120106e1525
+https://github.com/wangyuhsin/mini-python-projects/assets/76431031/db6f244b-7e1d-4e61-8e8d-0c3f8c5a45f7
 
 ## Find Anagrams
 
@@ -71,7 +71,7 @@ To run the Find Anagrams program, execute the following command:
 python3 anagram.py
 ```
 
-https://github.com/wangyuhsin/sc-projects/assets/76431031/9739d9a6-692e-4867-b344-52a98f04ccf9
+https://github.com/wangyuhsin/mini-python-projects/assets/76431031/d9ca06cc-0da0-47ea-a548-79be7d0c79f5
 
 ## Boggle Game Solver
 
@@ -82,7 +82,7 @@ To run the Boggle Game Solver, execute the following command:
 python3 boggle.py
 ```
 
-https://github.com/wangyuhsin/sc-projects/assets/76431031/e1c15552-cce5-4627-8f99-6a4419f84d69
+https://github.com/wangyuhsin/mini-python-projects/assets/76431031/ddf9590a-c63e-4bd6-887b-aa64fd47715c
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
